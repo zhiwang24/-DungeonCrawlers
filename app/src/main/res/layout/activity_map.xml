@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewmodel.ActivityMap"
+    tools:layout_editor_absoluteX="-16dp"
+    tools:layout_editor_absoluteY="11dp">
+
+    <ImageView
+        android:id="@+id/map1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/sprite"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="1000dp"
+        android:layout_marginTop="750dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/enemy1"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        app:srcCompat="@drawable/enemy1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/power1"
+        android:layout_width="73dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="424dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        app:srcCompat="@drawable/power1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/power2"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        app:srcCompat="@drawable/power2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/power3"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="436dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        app:srcCompat="@drawable/power3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/enemy2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="172dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        app:srcCompat="@drawable/enemy2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerCoordName"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:text="Player Location: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerCoord"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/enemy1CoordName"
+        android:layout_width="113dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="108dp"
+        android:text="Enemy1 Location: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/enemy1Coord"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="136dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/enemy2CoordName"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="172dp"
+        android:text="Enemy2 Location: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/enemy2Coord"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/scoreName"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="316dp"
+        android:text="Score: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerScore"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="344dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerNameX"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Player name: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="102dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/playerDifficulty"
+        android:layout_width="104dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="364dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerDifficultyX"
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="16dp"
+        android:text="Difficulty: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/playerHpX"
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="492dp"
+        android:layout_marginTop="16dp"
+        android:text="Player HP: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/map1"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/playerHp"
+        android:layout_width="107dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="608dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/moveUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="590dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/moveDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="590dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="DOWN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/moveLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="LEFT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/moveRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="640dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="RIGHT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="640dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="ATTACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.961"
+        tools:ignore="MissingConstraints" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/submitMap1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="611dp"-->
+    <!--        android:layout_marginTop="340dp"-->
+    <!--        android:layout_marginEnd="32dp"-->
+    <!--        android:layout_marginBottom="23dp"-->
+    <!--        android:text="Next"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
