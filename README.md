@@ -24,7 +24,7 @@ This project will be implemented across five sprints. Each sprint includes the i
 ## Graphics
 
 ### Player Sprites
-<img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/sprite1.png" width="250"> <img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/sprite2.png" width="250"> <img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/sprite3.png" width="250">
+<img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/sprite1.png" width="250"> <img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/sprite2.png" width="250"> <img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/sprite3.png" width="250">
 
 ### Enemy Sprites
-<img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/enemy1.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/enemy2.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/enemy3.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawler/blob/main/app/src/main/res/drawable/enemy4.PNG" width="200">
+<img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/enemy1.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/enemy2.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/enemy3.PNG" width="200"> <img src="https://github.com/zhiwang24/DungeonCrawlers/blob/main/app/src/main/res/drawable/enemy4.PNG" width="200">
